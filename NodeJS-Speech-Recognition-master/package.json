@@ -1,0 +1,32 @@
+{
+  "name": "remote-control",
+  "version": "1.0.0",
+  "description": "A Remote Control Application to control a video player using voice.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamv12/NodeJS-Speech-Recognition.git"
+  },
+  "keywords": [
+    "voice-control",
+    "speech-recognition",
+    "voice-remote-control"
+  ],
+  "author": "Shivam V.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamv12/NodeJS-Speech-Recognition/issues"
+  },
+  "homepage": "https://github.com/shivamv12/NodeJS-Speech-Recognition#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
